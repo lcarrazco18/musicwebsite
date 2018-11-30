@@ -6,7 +6,13 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+header {
+  display: flex;
+  
+}
+
 #top-section {
+  position: relative;
   background: url('https://www.lachicuela.com/base05/2018/08/kffkfy-696x385.jpg');
   background-size: cover;
   height: 100vh;
