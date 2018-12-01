@@ -64,18 +64,36 @@ body {
 }
 
 header {
+  position: absolute;
+  padding: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header .logo img {
   width: 50px;
 }
 
+header nav {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0 20px;
+}
+
 #top-section {
-  position: relative;
   background: url("https://www.lachicuela.com/base05/2018/08/kffkfy-696x385.jpg");
   background-size: cover;
   height: 100vh;
