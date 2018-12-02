@@ -12,21 +12,24 @@ header {
   display: flex;
   width: 100%;
   justify-content: space-between;
+
   .logo {
-    img{
+    img {
       width: 50px;
     }
   }
+
   nav {
     align-self: center;
-    a{
+
+    a {
       color: white;
       text-decoration: none;
       font-size: 1.2rem;
       font-weight: 300;
       padding: 0 20px;
     }
-  } 
+  }
 }
 
 #top-section {
@@ -35,4 +38,31 @@ header {
   background-size: cover;
   height: 100vh;
   width: 100%;
+}
+
+.container {
+  max-width: 1400px;
+}
+#bio {
+  
+  background: black;
+  position: relative;
+  .container {
+    display: flex;
+    margin: 0 auto;
+  }
+  p {
+    width: 50%;
+    color: white;
+    line-height: 1.5;
+    font-size: .9rem;
+    padding: 50px;
+  }
+
+  .logo-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
 }
