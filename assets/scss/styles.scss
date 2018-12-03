@@ -99,5 +99,25 @@ header {
       }
     }
   }
-
 }
+
+
+#musica {
+       .container {
+        display: flex;
+      }
+
+      .info {
+        width: 50%;
+      }
+
+      .album-cover {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 75%;
+        }
+      }
+    }
