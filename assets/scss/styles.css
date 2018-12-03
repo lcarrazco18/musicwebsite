@@ -74,10 +74,6 @@ header {
           justify-content: space-between;
 }
 
-header .logo img {
-  width: 50px;
-}
-
 header nav {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -85,7 +81,7 @@ header nav {
 }
 
 header nav a {
-  color: white;
+  color: #EBDAC4;
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 300;
@@ -105,7 +101,7 @@ header nav a {
 }
 
 #bio {
-  background: black;
+  background: #272727;
   position: relative;
 }
 
@@ -118,7 +114,7 @@ header nav a {
 
 #bio p {
   width: 50%;
-  color: white;
+  color: #EBDAC4;
   line-height: 1.5;
   font-size: .9rem;
   padding: 50px;
@@ -138,11 +134,10 @@ header nav a {
 }
 
 #media {
-  padding: 100px 50px;
+  padding: 80px 50px;
 }
 
 #media .title {
-  background: black;
   font-size: 1.1rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -151,15 +146,27 @@ header nav a {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
-  color: white;
+  color: #EBDAC4;
 }
 
 #media .videos {
-  padding: 80px 50px;
+  padding: 80px 50px 0;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
   grid-gap: 50px;
+}
+
+#media .videos .video {
+  border-radius: 4px;
+  overflow: hidden;
+  height: 300px;
+  -webkit-box-shadow: 0px 13px 24px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 13px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+#media .videos .video iframe {
+  height: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

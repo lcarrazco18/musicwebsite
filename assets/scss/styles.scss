@@ -13,17 +13,12 @@ header {
   width: 100%;
   justify-content: space-between;
 
-  .logo {
-    img {
-      width: 50px;
-    }
-  }
 
   nav {
     align-self: center;
 
     a {
-      color: white;
+      color: #EBDAC4;
       text-decoration: none;
       font-size: 1.2rem;
       font-weight: 300;
@@ -43,17 +38,20 @@ header {
 .container {
   max-width: 1400px;
 }
+
 #bio {
-  
-  background: black;
+
+  background: #272727;
   position: relative;
+
   .container {
     display: flex;
     margin: 0 auto;
   }
+
   p {
     width: 50%;
-    color: white;
+    color: #EBDAC4;
     line-height: 1.5;
     font-size: .9rem;
     padding: 50px;
@@ -68,9 +66,9 @@ header {
 }
 
 #media {
-  padding: 100px 50px;
+  padding: 80px 50px;
+
   .title {
-    background: black;
     font-size: 1.1rem;
     font-weight: 300;
     text-transform: uppercase;
@@ -79,13 +77,27 @@ header {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
-    color: white;
+    color: #EBDAC4;
   }
+
   .videos {
-    padding: 80px 50px;
+    padding: 80px 50px 0;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 50px;
+
+    .video {
+      border-radius: 4px;
+      overflow: hidden;
+      height: 300px;
+      -webkit-box-shadow: 0px 13px 24px -8px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 13px 24px -8px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 13px 24px -8px rgba(0, 0, 0, 0.75);
+
+      iframe {
+        height: 100%;
+      }
+    }
   }
 
 }
