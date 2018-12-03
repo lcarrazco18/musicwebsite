@@ -137,6 +137,10 @@ header nav a {
   padding: 50px;
 }
 
+#media {
+  padding: 100px 50px;
+}
+
 #media .title {
   background: black;
   font-size: 1.1rem;
@@ -147,5 +151,15 @@ header nav a {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
+  color: white;
+}
+
+#media .videos {
+  padding: 80px 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  grid-gap: 50px;
 }
 /*# sourceMappingURL=styles.css.map */

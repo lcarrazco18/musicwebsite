@@ -68,6 +68,7 @@ header {
 }
 
 #media {
+  padding: 100px 50px;
   .title {
     background: black;
     font-size: 1.1rem;
@@ -78,6 +79,13 @@ header {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
-    
+    color: white;
   }
+  .videos {
+    padding: 80px 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 50px;
+  }
+
 }
