@@ -180,6 +180,18 @@ header nav a {
   width: 50%;
 }
 
+#musica .info .title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+#musica .info .sub-title {
+  font-size: .8rem;
+  font-weight: 300;
+  text-align: center;
+}
+
 #musica .album-cover {
   width: 50%;
   display: -webkit-box;
