@@ -172,6 +172,16 @@ header nav a {
 
 #musica {
   padding: 80px 0;
+  position: relative;
+}
+
+#musica .bluredbg {
+  background-image: url("/public/img/4k-wallpaper-background-blur-1242348.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
 }
 
 #musica .container {
@@ -179,6 +189,8 @@ header nav a {
   display: -ms-flexbox;
   display: flex;
   padding: 0 50px;
+  position: relative;
+  z-index: 3;
 }
 
 #musica .info {
@@ -218,16 +230,26 @@ header nav a {
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
+  margin-bottom: 80px;
 }
 
 #musica .info .singles li {
   font-size: 1.5rem;
   font-weight: 300;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+#musica .info .logos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
 
 #musica .album-cover {
-  width: 50%;
+  width: 75%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,5 +263,6 @@ header nav a {
 
 #musica .album-cover img {
   width: 100%;
+  padding: 100px 0;
 }
 /*# sourceMappingURL=styles.css.map */
