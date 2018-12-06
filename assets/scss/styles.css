@@ -170,24 +170,58 @@ header nav a {
   height: 100%;
 }
 
+#musica {
+  padding: 80px 0;
+}
+
 #musica .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0 50px;
 }
 
 #musica .info {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #musica .info .title {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   text-align: center;
 }
 
 #musica .info .sub-title {
-  font-size: .8rem;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+#musica .info .singles {
+  width: 400px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+#musica .info .singles li {
+  font-size: 1.5rem;
   font-weight: 300;
   text-align: center;
 }
@@ -206,6 +240,6 @@ header nav a {
 }
 
 #musica .album-cover img {
-  width: 75%;
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

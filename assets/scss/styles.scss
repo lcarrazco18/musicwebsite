@@ -67,7 +67,6 @@ header {
 
 #media {
   padding: 80px 50px;
-
   .title {
     font-size: 1.1rem;
     font-weight: 300;
@@ -103,26 +102,45 @@ header {
 
 
 #musica {
+  padding: 80px 0;
        .container {
         display: flex;
+        padding: 0 50px;
       }
 
       .info {
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       
 
       .title {
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: 700;
         text-align: center;
       }
 
       .sub-title {
-        font-size: .8rem;
-        font-weight: 300;
+        font-size: 2rem;
+        font-weight: 500;
         text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 100px;
       }
+      .singles {
+        width: 400px;
+        display: grid;
+        grid-template-columns: 50% 50%;
 
+        li {
+          font-size: 1.5rem;
+          font-weight: 300;
+          text-align: center;
+          margin-bottom: 
+        }
+      }
     }
       .album-cover {
         width: 50%;
@@ -130,7 +148,7 @@ header {
         justify-content: center;
         align-items: center;
         img {
-          width: 75%;
+          width: 100%;
         }
       }
     }
