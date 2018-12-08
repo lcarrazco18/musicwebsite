@@ -182,6 +182,10 @@ header {
   background: #272727;
   position: relative;
   z-index: 4;
+
+  .top-img {
+    background-image: url(/public/img/group.jpg);
+  }
 }
 
 footer {

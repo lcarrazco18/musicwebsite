@@ -273,6 +273,10 @@ header nav a {
   z-index: 4;
 }
 
+#tour .top-img {
+  background-image: url(/public/img/group.jpg);
+}
+
 footer {
   background: #1b1b1b;
   position: relative;
