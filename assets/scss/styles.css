@@ -274,11 +274,84 @@ header nav a {
 }
 
 #tour .top-img {
-  background-image: url(/public/img/group.jpg);
+  background-image: url("/public/img/group.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 300px;
+  -webkit-filter: saturate(0%) contrast(120%);
+          filter: saturate(0%) contrast(120%);
+}
+
+#tour .tourdates {
+  background: #272727;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 80px 0;
+}
+
+#tour .tourdates .title {
+  color: #EBDAC4;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 0 80px;
+}
+
+#tour .tourdates .dates {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+#tour .tourdates .dates li {
+  color: #EBDAC4;
+  font-size: 1.3rem;
+}
+
+#tour .tourdates .dates li .span {
+  padding: 0 10px;
+}
+
+#tour .tourdates .dates li .city {
+  font-weight: 700;
+}
+
+#tour .tourdates .dates li .location {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+#tour .tourdates .dates li .date {
+  font-weight: 500;
+  color: #f14848;
 }
 
 footer {
   background: #1b1b1b;
   position: relative;
+  z-index: 4;
+  padding: 25px;
+  text-align: center;
+  color: #EBDAC4;
+}
+
+footer img {
+  max-width: 50px;
+}
+
+footer a {
+  color: red;
+  text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */
