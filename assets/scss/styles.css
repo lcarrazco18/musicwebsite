@@ -354,4 +354,13 @@ footer a {
   color: red;
   text-decoration: none;
 }
+
+/* Tablets */
+/* Phones */
+@media only screen and (max-width: 767px) {
+  #top-section {
+    width: 100%;
+    background-position: center;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
