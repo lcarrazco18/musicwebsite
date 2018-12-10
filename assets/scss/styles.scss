@@ -30,7 +30,7 @@ header {
   position: relative;
   background: url('https://www.lachicuela.com/base05/2018/08/kffkfy-696x385.jpg');
   background-size: cover;
-  height: 600px;
+  height: 100vh;
   width: 100%;
 }
 
@@ -249,7 +249,7 @@ footer {
   img {
     max-width: 50px;
   }
-  
+
   a {
     color: red;
     text-decoration: none;
@@ -261,13 +261,8 @@ footer {
 
 @media only screen and (max-width: 960px) {
   #bio {
-    p {
-      width: 100%;
-      color: #EBDAC4;
-      line-height: 1.7;
-      font-size: .8rem;
-      padding: 30px;
-    }  
+    p {}
+
     .logo-centered {
       display: none;
     }
@@ -278,14 +273,9 @@ footer {
 
 @media only screen and (max-width: 767px) {
   header {
-    padding: 15px;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  
     nav {
-      align-self: center;
-  
+      // align-self: center;
+
       a {
         color: #EBDAC4;
         text-decoration: none;
@@ -300,19 +290,21 @@ footer {
     background: url(/public/img/jorgemedina.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    width: auto;
+    height: 240px;
+
   }
 
   #bio {
     background: #272727;
-    width: 400px;
+
     p {
-      width: 80%;
+      width: 100%;
       color: #EBDAC4;
       line-height: 1.5;
-      font-size: .6rem;
+      font-size: .9rem;
       padding: 20px;
-    }  
+    }
+
     .logo-centered {
       display: none;
     }
