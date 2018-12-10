@@ -92,7 +92,7 @@ header nav a {
   position: relative;
   background: url("https://www.lachicuela.com/base05/2018/08/kffkfy-696x385.jpg");
   background-size: cover;
-  height: 100vh;
+  height: 600px;
   width: 100%;
 }
 
@@ -356,11 +356,62 @@ footer a {
 }
 
 /* Tablets */
+@media only screen and (max-width: 960px) {
+  #bio p {
+    width: 100%;
+    color: #EBDAC4;
+    line-height: 1.7;
+    font-size: .8rem;
+    padding: 30px;
+  }
+  #bio .logo-centered {
+    display: none;
+  }
+}
+
 /* Phones */
 @media only screen and (max-width: 767px) {
-  #top-section {
+  header {
+    padding: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     width: 100%;
-    background-position: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header nav {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  header nav a {
+    color: #EBDAC4;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 300;
+    padding: 0 10px;
+  }
+  #top-section {
+    background: url(/public/img/jorgemedina.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: auto;
+  }
+  #bio {
+    background: #272727;
+    width: 400px;
+  }
+  #bio p {
+    width: 80%;
+    color: #EBDAC4;
+    line-height: 1.5;
+    font-size: .6rem;
+    padding: 20px;
+  }
+  #bio .logo-centered {
+    display: none;
   }
 }
 /*# sourceMappingURL=styles.css.map */
