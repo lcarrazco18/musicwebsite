@@ -274,34 +274,30 @@ footer {
 @media only screen and (max-width: 767px) {
   header {
     nav {
-      // align-self: center;
-
       a {
         color: #EBDAC4;
         text-decoration: none;
-        font-size: .9rem;
+        font-size: .8rem;
         font-weight: 300;
         padding: 0 10px;
       }
     }
   }
-
   #top-section {
     background: url(/public/img/jorgemedina.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 240px;
-
+    
   }
 
   #bio {
     background: #272727;
-
     p {
+      top: -100px;
       width: 100%;
       color: #EBDAC4;
       line-height: 1.5;
-      font-size: .9rem;
+      font-size: 1rem;
       padding: 20px;
     }
 
