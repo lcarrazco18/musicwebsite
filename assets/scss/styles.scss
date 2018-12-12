@@ -260,9 +260,30 @@ footer {
 /* Tablets */
 
 @media only screen and (max-width: 960px) {
-  #bio {
-    p {}
+  header {
+    nav {
+      a {
+        color: #EBDAC4;
+        text-decoration: none;
+        font-weight: 300;
+        // padding: 0 10px;
+      }
+    }
+  }
+  #top-section {
+    background: url(/public/img/jorgemedina.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 430px;
+  }
 
+  #bio {
+    p {
+      width: 100%;
+      color: #EBDAC4;
+      line-height: 1.5;
+      font-size: 1rem;
+    }
     .logo-centered {
       display: none;
     }
@@ -287,20 +308,17 @@ footer {
     background: url(/public/img/jorgemedina.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    
+    margin-bottom: 0;
+    height: 240px;
   }
 
   #bio {
-    background: #272727;
     p {
-      top: -100px;
       width: 100%;
       color: #EBDAC4;
       line-height: 1.5;
-      font-size: 1rem;
-      padding: 20px;
+      font-size: .7rem;
     }
-
     .logo-centered {
       display: none;
     }
