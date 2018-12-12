@@ -308,7 +308,7 @@ footer {
     background: url(/public/img/jorgemedina.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 300px;
+    height: 280px;
   }
 
   #bio {
@@ -322,4 +322,26 @@ footer {
       display: none;
     }
   }
+  #media {
+  
+    .title {
+      font-size: 1.1rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      padding: 20px;
+      text-align: center;
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+      color: #EBDAC4;
+    }
+  
+    .videos {
+      display: grid;
+      grid-template-columns: 100%;
+      width: 100%;
+      padding: 0 0;
+    }
+  }
+  
 }

@@ -392,8 +392,7 @@ footer a {
     background: url(/public/img/jorgemedina.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 0;
-    height: 300px;
+    height: 280px;
   }
   #bio p {
     width: 100%;
@@ -403,6 +402,25 @@ footer a {
   }
   #bio .logo-centered {
     display: none;
+  }
+  #media .title {
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #EBDAC4;
+  }
+  #media .videos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    width: 100%;
+    padding: 0 0;
   }
 }
 /*# sourceMappingURL=styles.css.map */
